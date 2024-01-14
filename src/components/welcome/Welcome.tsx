@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const Welcome = ({ mode }: { mode: string }) => {
+const Welcome = ({ mode }: { mode: any }) => {
   return (
     <div>
       <motion.h1

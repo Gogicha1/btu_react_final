@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import PathComponent from "../../components/header/PathComponent";
 import { motion } from "framer-motion";
 
-const Finish = ({ mode }: { mode: string | (() => void) }) => {
+const Finish = ({ mode }: { mode: any }) => {
   const location = useLocation();
   const index = location.state;
   const { score, pathname } = location.state;

@@ -15,7 +15,7 @@ const validationSchema = Yup.object().shape({
     .min(5, "Minimum length is 5"),
 });
 
-const Auth = ({ mode }: { mode: string | (() => void) }) => {
+const Auth = ({ mode }: { mode: any }) => {
   const {
     handleSubmit,
     register,

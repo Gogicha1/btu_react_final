@@ -5,8 +5,8 @@ const Header = ({
   handleMode,
   mode,
 }: {
-  handleMode: (() => void) | string;
-  mode: string | (() => void);
+  handleMode: any;
+  mode: any;
 }) => {
   const location = useLocation();
   const index = location.state;

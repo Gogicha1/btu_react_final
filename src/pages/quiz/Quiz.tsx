@@ -4,7 +4,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { DataTypes } from "../../types/Types";
 import { motion } from "framer-motion";
 
-const quiz = ({ mode }: { mode: string | (() => void) }) => {
+const quiz = ({ mode }: { mode: any }) => {
   const [data, setData] = useState<DataTypes[]>();
   const [count, setCount] = useState(0);
   const [choose, setChoose] = useState(-1);
