@@ -1,4 +1,3 @@
-import { useLocation } from "react-router-dom";
 import images from "../../services/Images";
 import { list } from "../navigationList/NavList";
 
